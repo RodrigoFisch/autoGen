@@ -1,0 +1,65 @@
+# =========================
+# 🔐 Variáveis sensíveis
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# 🧪 Ambientes virtuais
+# =========================
+.venv/
+venv/
+ENV/
+env/
+
+# =========================
+# 📦 Dependências
+# =========================
+pip-wheel-metadata/
+site-packages/
+
+# =========================
+# 🧠 Cache / logs
+# =========================
+.cache/
+*.log
+
+# =========================
+# 🧰 IDEs / Editores
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# 🖥️ Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# 🧪 Testes
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# 🔑 Chaves / certificados (caso existam)
+# =========================
+*.pem
+*.key
+*.crt
